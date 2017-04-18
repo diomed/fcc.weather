@@ -8,7 +8,7 @@ $(document).ready(function()
             var latitude = position.coords.latitude;
             var longitude = position.coords.longitude;
 
-                $.getJSON('https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=' + latitude + '&lon=' + longitude + '&units=metric&appid=8ed6e0b7eeccde7ef2d68ddad4bc4659&', function(json) {
+                $.getJSON('https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=' + latitude + '&lon=' + longitude + '&units=metric&appid=8ed6e0b7eeccde7ef2d68ddad4bc4659', function(json) {
                 updateWeather = json;
                 presentWeather();
                 weatherIcon();
