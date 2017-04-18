@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body,
+html {
+    background-image: url("https://source.unsplash.com/GPxgi4J82E4/1600x900");
+    color: #fff;
+    font: 27px 'Titillium Web', sans-serif;
+}
+
+.jumbotron {
+  margin-top: 45px;
+  background-color: transparent;
+}
+
+#myLocation,
+#myTemp,
+#description {
+  font-size: 100%;
+}
+
+#icon img {
+  height: 100px;
+}
